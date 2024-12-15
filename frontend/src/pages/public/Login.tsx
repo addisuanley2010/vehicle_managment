@@ -110,7 +110,16 @@ const Login = () => {
                 onClick={() => navigate("/registration")}
                 className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500 cursor-pointer"
               >
-                &nbsp; sign up
+
+                  sign up
+              </a>
+            </span>
+            <span className="text-center text-sm text-gray-500 ml-8">
+              <a
+                onClick={() => navigate("/")}
+                className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500 cursor-pointer"
+              >
+                Back to Home
               </a>
             </span>
           </div>
@@ -119,5 +128,6 @@ const Login = () => {
     </div>
   );
 };
+
 
 export default Login;
