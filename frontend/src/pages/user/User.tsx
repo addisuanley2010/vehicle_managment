@@ -2,8 +2,9 @@
 
 const User = () => {
   return (
-    <div className="h-screen bg-slate-800 text-gray-50 text-5xl">
-        This is protected user page!
+    <div className="h-screen bg-slate-800 text-gray-50 flex flex-col items-center justify-center">
+      <p className="text-xl mb-2">You are not an admin user.</p>
+      <p className="text-lg text-gray-400">Please contact addisu anley to request admin privileges.</p>
     </div>
   )
 }
